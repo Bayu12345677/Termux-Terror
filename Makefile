@@ -10,5 +10,8 @@ setup:
 	@npm -g i chalk chalk-animation
 	@npm -g i bash-obfuscate
 	@echo "[+] paket berhasil di setup"
+
+id:
+	@id
 Run:
 	@bash new.enc
