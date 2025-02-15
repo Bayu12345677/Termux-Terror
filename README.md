@@ -17,7 +17,7 @@
 <div align="center">
 <table>
   <tr>
-    <th>Sample/th>
+    <th>Sample</th>
     <th>Jenis</th>
   </tr>
   <tr>
