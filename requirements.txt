@@ -1,0 +1,7 @@
+requests
+bs4
+cloudscraper
+user_agents
+rich
+rich-cli
+phonenumbers
