@@ -15,7 +15,7 @@ function parser(){
 }
 
 parser.all:(){
-	local data=$(parser "$@")
+	local data=$(parser ["$@"])
 	eval "$this=($data)"
 	# eval "Array_myparser=($data)"
 	#local xparse
