@@ -14,4 +14,5 @@ setup:
 id:
 	@id
 Run:
+	@echo "[INPO] sabar ya bung sc sedang berjalan bukan stuck :v"
 	@bash new.enc
