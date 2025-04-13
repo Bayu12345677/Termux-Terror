@@ -122,7 +122,7 @@ _list_input() {
 
 list.input() {
   local args
-  eval args=($(parser ["$@"]))
+  args=($(parser ["$@"]))
   _list_input "${args[0]}" "${args[1]}"
   local var_name=${args[2]}
   eval $var_name=\'"${_list_options[$_list_selected_index]}"\'
