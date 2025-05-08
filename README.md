@@ -10,7 +10,7 @@
 </p>
 
 <p>
-  Termux-Terror adalah tools yang berfungsi untuk spam target dengan berbagai otp mulai dari wa, sms dan call secara brutal mulai dari harga 50 ribu anda bisa mendapatkannya
+  Termux-Terror adalah tools yang berfungsi untuk spam target dengan berbagai otp mulai dari wa, sms dan call secara brutal mulai dari harga 30 ribu anda bisa mendapatkannya
 </p><br><br>
 
 
