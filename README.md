@@ -3,10 +3,10 @@
   <img src="https://github.com/Bayu12345677/Servers/blob/main/Termux_Terror/img/20250215_170030.png" width="590"><br>
   <img src="https://img.shields.io/static/v1?label=Bash+Obfuscating&color=green&message=+&logo=GNU+Bash&logoColor=white&style=for-the-badge">
   <img src="https://img.shields.io/static/v1?label=Author&color=green&message=Bayu+Rizky+A.M&logo=Acclaim&logoColor=white&style=for-the-badge"><br>
-  <img src="https://img.shields.io/github/stars/Bayu12345677/Pyramid-OBFV2?logo=github&style=for-the-badge">
+  <img src="https://img.shields.io/github/stars/Bayu12345677/Termux-Terror?logo=github&style=for-the-badge">
   <img src="https://img.shields.io/static/v1?label=Version&color=green&message=2.3&logo=Clockify&logoColor=white&style=for-the-badge"><br><br>
   <img src="https://img.shields.io/static/v1?label=Termux&color=green&message=+&logo=Iterm2&logoColor=white&style=flat">
-  <img src="https://img.shields.io/github/forks/Bayu12345677/Pyramid-OBFV2?logo=github&style=flat">
+  <img src="https://img.shields.io/github/forks/Bayu12345677/Termux-Terror?logo=github&style=flat">
 </p>
 
 <p>
