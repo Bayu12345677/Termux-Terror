@@ -1,8 +1,8 @@
 setup:
 	apt-get update
 	apt-get upgrade
-	apt-get install ruby python ossp-uuid figlet pv toilet nodejs uuid-utils
-	apt-get install boxes jq html2text tree toilet figlet openssl-tool
+	apt-get install ruby python ossp-uuid figlet pv toilet nodejs uuid-utils file
+	apt-get install boxes jq html2text tree toilet figlet openssl-tool brotli coreutils
 	apt-get install curl xh ncurses-utils clang bc nodejs-lts ossp-uuid nala xz-utils
 	pip install requests
 	pip install httpie
