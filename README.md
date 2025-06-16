@@ -58,6 +58,17 @@ make setup
 make Run
 ```
 
+⚠️ Disclaimer
+<code>
+This project is created for educational and research purposes only.
+All the scripts, tools, or examples provided in this repository are meant to deepen understanding of system behavior, application structure, or security analysis in a controlled environment.
+The author is not responsible for any misuse or damage caused by the usage of the provided content.
+> Please do not use any part of this repository to:
+Violate software terms of service
+Circumvent protections in commercial products
+Interfere with platforms or services without permission
+Use responsibly, ethically, and always within the boundaries of local laws and regulations.</code>
+
 - `Update`
 ```bash
 git pull
