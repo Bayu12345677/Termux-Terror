@@ -6,6 +6,7 @@ setup:
 	apt-get install curl xh ncurses-utils clang bc nodejs-lts ossp-uuid nala xz-utils ripgrep
 	pip install requests
 	pip install httpie
+	pip uninstall psutil -y
 	pip install phonenumbers
 	@gem install lolcat
 	@npm -g i chalk chalk-animation
