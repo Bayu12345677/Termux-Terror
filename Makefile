@@ -1,10 +1,12 @@
+PYTHON_VERSION := $(shell python -V | sed 's/[[:space:]]//g' | cut -c 1-10 | tr '[:upper:]' '[:lower:]')
+
 setup:
 	apt-get update
 	apt-get upgrade
 	apt-get install ruby python ossp-uuid figlet pv toilet nodejs uuid-utils file util-linux binutils
 	apt-get install boxes jq html2text tree toilet figlet openssl-tool brotli coreutils silversearcher-ag
 	apt-get install curl xh ncurses-utils clang bc nodejs-lts ossp-uuid nala xz-utils ripgrep
-	rm -rf $$PREFIX/lib/python3.12/site-packages/requests
+	rm -rf $$PREFIX/lib/$(PYTHON_VERSION)/site-packages/requests
 	pip uninstall requests -y
 	pip uninstall psutil -y
 	pip install phonenumbers
