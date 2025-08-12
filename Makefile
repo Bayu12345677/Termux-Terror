@@ -4,10 +4,12 @@ setup:
 	apt-get install ruby python ossp-uuid figlet pv toilet nodejs uuid-utils file util-linux binutils
 	apt-get install boxes jq html2text tree toilet figlet openssl-tool brotli coreutils silversearcher-ag
 	apt-get install curl xh ncurses-utils clang bc nodejs-lts ossp-uuid nala xz-utils ripgrep
-	pip install requests
-	pip install httpie
+	rm -rf $PREFIX/lib/python3.12/site-packages/requests
+	pip uninstall requests -y
 	pip uninstall psutil -y
 	pip install phonenumbers
+	pip install requests
+	pip install httpie
 	@gem install lolcat
 	@npm -g i chalk chalk-animation
 	@npm -g i bash-obfuscate
