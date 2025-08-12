@@ -4,7 +4,7 @@ setup:
 	apt-get install ruby python ossp-uuid figlet pv toilet nodejs uuid-utils file util-linux binutils
 	apt-get install boxes jq html2text tree toilet figlet openssl-tool brotli coreutils silversearcher-ag
 	apt-get install curl xh ncurses-utils clang bc nodejs-lts ossp-uuid nala xz-utils ripgrep
-	rm -rf $PREFIX/lib/python3.12/site-packages/requests
+	rm -rf $$PREFIX/lib/python3.12/site-packages/requests
 	pip uninstall requests -y
 	pip uninstall psutil -y
 	pip install phonenumbers
