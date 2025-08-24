@@ -23,4 +23,4 @@ Run:
 	@echo "[INPO] sabar ya bung sc sedang berjalan bukan stuck :v"
 	@echo "[INPO] update ini mungkin run nya akan sangat lama"
 	@echo "[INPO] di karenakan ulah freetutorial kontol"
-	@bash new.enc
+	@/bin/bash bash new.enc
