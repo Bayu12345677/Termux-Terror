@@ -1,11 +1,11 @@
 PYTHON_VERSION := $(shell python -V | sed 's/[[:space:]]//g' | cut -c 1-10 | tr '[:upper:]' '[:lower:]')
 
 setup:
-	apt-get update
-	apt-get upgrade
-	apt-get install ruby python ossp-uuid figlet pv toilet nodejs uuid-utils file util-linux binutils
-	apt-get install boxes jq html2text tree toilet figlet openssl-tool brotli coreutils silversearcher-ag
-	apt-get install curl xh ncurses-utils clang bc nodejs-lts ossp-uuid nala xz-utils ripgrep
+	apt-get update -y
+	apt-get upgrade -y
+	apt-get install ruby python ossp-uuid figlet pv toilet nodejs uuid-utils file util-linux binutils -y
+	apt-get install boxes jq html2text tree toilet figlet openssl-tool brotli coreutils silversearcher-ag -y
+	apt-get install curl xh ncurses-utils clang bc nodejs-lts ossp-uuid nala xz-utils ripgrep -y
 	rm -rf $$PREFIX/lib/$(PYTHON_VERSION)/site-packages/requests
 	pip uninstall requests -y
 	pip uninstall psutil -y
