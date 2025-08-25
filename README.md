@@ -1,5 +1,6 @@
 <h2 align="center">Termux-Terror</h2>
 <p align="center">
+  <img src="https://github.com/Bayu12345677/Properti/blob/main/img/Termux-Terorr/photo_2025-02-16_16-40-17.jpg" width="500"><br>
   <img src="https://img.shields.io/static/v1?label=Bash+Obfuscating&color=green&message=+&logo=GNU+Bash&logoColor=white&style=for-the-badge">
   <img src="https://img.shields.io/static/v1?label=Author&color=green&message=Bayu+Rizky+A.M&logo=Acclaim&logoColor=white&style=for-the-badge"><br>
   <img src="https://img.shields.io/github/stars/Bayu12345677/Termux-Terror?logo=github&style=for-the-badge">
