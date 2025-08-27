@@ -10,6 +10,7 @@ setup:
 	pip uninstall requests -y
 	pip uninstall psutil -y
 	pip install phonenumbers
+	pip install rich-cli
 	pip install requests
 	pip install httpie
 	@gem install lolcat
