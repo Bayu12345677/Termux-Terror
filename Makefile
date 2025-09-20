@@ -21,7 +21,6 @@ setup:
 id:
 	@id
 Run:
-	@echo "[INPO] sabar ya bung sc sedang berjalan bukan stuck :v"
-	@echo "[INPO] update ini mungkin run nya akan sangat lama"
-	@echo "[INPO] di karenakan ulah freetutorial kontol"
+	@echo "[  INPO ] harap tunggu sedang menjalankan program"
+	@echo "[  INPO ] Security Pyramid ENCIENT: 10.0.0"
 	@bash new.enc
