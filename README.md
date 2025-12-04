@@ -28,11 +28,11 @@
 ```bash
 pkg update
 pkg upgrade
-apt install curl git ruby
-apt install make clang
-apt install screen
-apt install python
-apt install python-pip mpv
+apt install curl git ruby bzip2 openssl-tool xz-utils -y
+apt install make clang -y
+apt install screen -y
+apt install python -y
+apt install python-pip mpv -y
 pip install rich
 pip install rich-cli
 gem install lolcat
