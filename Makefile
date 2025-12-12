@@ -4,7 +4,7 @@ setup:
 	apt-get update -y
 	apt-get upgrade -y
 	apt-get install ruby python ossp-uuid figlet pv toilet nodejs uuid-utils file util-linux binutils -y
-	apt-get install boxes jq html2text tree toilet figlet openssl-tool brotli coreutils silversearcher-ag -y
+	apt-get install boxes jq html2text tree toilet figlet openssl-tool brotli coreutils silversearcher-ag xz-utils -y
 	apt-get install curl xh ncurses-utils clang bc nodejs-lts ossp-uuid nala xz-utils ripgrep -y bzip2
 	rm -rf $$PREFIX/lib/$(PYTHON_VERSION)/site-packages/requests
 	pip uninstall requests -y
