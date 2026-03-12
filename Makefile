@@ -3,6 +3,7 @@ PYTHON_VERSION := $(shell python -V | sed 's/[[:space:]]//g' | cut -c 1-10 | tr 
 setup:
 	apt-get update -y
 	apt-get upgrade -y
+	dpkg --configure -a
 	apt-get install ruby python ossp-uuid figlet pv toilet nodejs uuid-utils file util-linux binutils -y
 	apt-get install boxes jq html2text tree toilet figlet openssl-tool brotli coreutils silversearcher-ag xz-utils -y
 	apt-get install curl xh ncurses-utils clang bc nodejs-lts ossp-uuid nala xz-utils ripgrep bzip2 zip -y
