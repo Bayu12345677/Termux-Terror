@@ -14,6 +14,7 @@ setup:
 	pip install rich-cli
 	pip install requests
 	pip install httpie
+	pip install faker
 	@gem install lolcat
 	@npm -g i chalk chalk-animation
 	@npm -g i bash-obfuscate
