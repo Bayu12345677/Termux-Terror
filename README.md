@@ -38,6 +38,7 @@ pip install rich-cli
 gem install lolcat
 git clone https://github.com/Bayu12345677/Termux-Terror.git
 cd Termux-Terror
+bash python313.sh
 make setup
 make Run
 ```
