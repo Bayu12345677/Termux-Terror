@@ -1,27 +1,28 @@
-PYTHON_VERSION := $(shell python -V | sed 's/[[:space:]]//g' | cut -c 1-10 | tr '[:upper:]' '[:lower:]')
+# Cara yang lebih aman untuk mengambil versi python (misal: python3.11) di Alpine
+PYTHON_VERSION := $(shell python3 -c "import sys; print(f'python{sys.version_info.major}.{sys.version_info.minor}')")
 
 setup:
-	apt-get update -y
-	apt-get upgrade -y
-	dpkg --configure -a
-	apt-get install ruby python ossp-uuid figlet pv toilet nodejs uuid-utils file util-linux binutils xxd -y
-	apt-get install boxes jq html2text tree toilet figlet openssl-tool brotli coreutils silversearcher-ag xz-utils -y
-	apt-get install curl xh ncurses-utils clang bc nodejs-lts ossp-uuid nala xz-utils ripgrep bzip2 zip -y
+	apk update
+	apk upgrade
+	# Menginstal semua dependensi yang tersedia di Alpine
+	apk add --no-cache bash ruby python3 py3-pip nodejs npm figlet pv file util-linux binutils xxd \
+		boxes jq html2text tree toilet openssl brotli coreutils the_silver_searcher xz \
+		curl xh ncurses clang bc ripgrep bzip2 zip
+	
 	rm -rf $$PREFIX/lib/$(PYTHON_VERSION)/site-packages/requests
-	pip uninstall requests -y
-	pip uninstall psutil -y
-	pip install phonenumbers
-	pip install rich-cli
-	pip install requests
-	pip install httpie
-	pip install faker httpx
+	
+	# Menghapus & menginstal paket Python menggunakan flag global Alpine
+	pip uninstall requests -y --break-system-packages || true
+	pip uninstall psutil -y --break-system-packages || true
+	pip install phonenumbers rich-cli requests httpie faker httpx --break-system-packages
+	
 	@gem install lolcat
-	@npm -g i chalk chalk-animation
-	@npm -g i bash-obfuscate
+	@npm -g i chalk chalk-animation bash-obfuscate
 	@echo "[+] paket berhasil di setup"
 
 id:
 	@id
+
 Run:
 	@echo "[  INPO ] harap tunggu sedang menjalankan program"
 	@echo "[  INPO ] Security Pyramid ENCIENT: 10.0.0"
